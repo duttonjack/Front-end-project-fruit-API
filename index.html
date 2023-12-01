@@ -6,17 +6,21 @@
     <script src="jquery.js"></script>
     <script defer src="app.js"></script>
     <title>Front End Project</title>
-
+    <link rel="stylesheet" href="styles.css">
 </head>
+
+<body>
   <h1 id="title">Fruit Finder</h1>
   <div>
-    <form id="user-input">
-      <label for="calories">Maximum calories</label>
-      <input type="text" name="calories">
-      <input type="submit" value="Submit">
-    </form> 
-  </div>
-<body>
-    
+   <form>
+      <label>Maximum calories</label>
+      <input id="user-input" type="text" name="calories">
+      <button id="submit-input">Submit</button>
+    </form>
+    <p id="disclaimer">*Calorie information is based on 100g servings.</p> 
+  </div> 
+  <div id="results-container">
+
+  </div> 
 </body>
 </html>
