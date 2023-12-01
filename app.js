@@ -14,7 +14,6 @@ $.get("https://www.fruityvice.com/api/fruit/all", (data) => {
   });
 });
 
-
 function mainBlock(data, input){
     console.log(input)
     console.log(data)
